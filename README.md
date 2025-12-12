@@ -46,6 +46,19 @@ BrandingKilat is an AI-powered branding suite designed to help MSMEs (UMKM), sta
 1.  Access the **Asisten Regulasi P-IRT** from the sidebar.
 2.  The tool assists in verifying label requirements and generating the necessary QR codes for the product packaging.
 
+## ⚙️ Configuration
+
+To run the app locally and enable AI features, you must configure your environment variables.
+
+1.  Create a file named `.env` in the root directory of the project.
+2.  Add your Google Gemini API Key as follows:
+
+```env
+API_KEY=AIzaSy...YourKeyHere
+```
+
+> **Note**: You can get your API key from [Google AI Studio](https://aistudio.google.com/).
+
 ## 🛠️ Tech Stack
 
 *   **Frontend**: React 19, React Router v7
@@ -56,7 +69,7 @@ BrandingKilat is an AI-powered branding suite designed to help MSMEs (UMKM), sta
 ## 📦 Installation
 
 1.  Clone the repository.
-2.  Ensure you have a `metadata.json` and necessary environment variables for the API Key.
+2.  Install dependencies (if applicable) and ensure the `.env` file is set up.
 3.  Run the application in your development environment.
 
 ---
